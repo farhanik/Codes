@@ -83,7 +83,7 @@ void reverse() // Using Single linked list reverse method to reverse a stack ele
     Node *next = 0;
     Node *current = top;
 
-    while (next != 0)
+    while (current != 0)
     {
         next = current->next;
         current->next = prev;
@@ -98,13 +98,18 @@ int main()
     push(&top, 2);
     push(&top, 4);
     push(&top, 5);
-    // peek(&top);
-    pop(&top);
-    pop(&top);
+    //peek(&top);
+    //pop(&top);
+    //pop(&top);
 
     Display(&top);
 
-    // printf("\n");
+     printf("\n");
 
-    // Reverse();
+    //Reverse();
+    reverse();
+    Display(&top);  
+    
+    
+
 }
