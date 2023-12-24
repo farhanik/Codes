@@ -25,9 +25,9 @@ int main() {
         Node temp= myStack.top();
         cout << temp.data << " ";
         myStack.pop();
-        //reversestack.push(temp);
+        reversestack.push(temp);
     }
-    /*int n= myStack.size();
+    int n= myStack.size();
     cout << n << endl;
     printf("\n");
     
@@ -38,7 +38,7 @@ int main() {
         
         reversestack.pop();
         //reversestack.push(temp);
-    }*/
+    }
 
    
 
